@@ -2,7 +2,7 @@ version: "3.7"
 services:
   webapp:
     build:
-      context: ./dir
+      context: ./tmp
       dockerfile: Dockerfile-alternate
       args:
         buildno: 1
